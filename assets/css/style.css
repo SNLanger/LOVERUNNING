@@ -64,6 +64,10 @@ nav {
 }
 
 #nav-toggle { display: none;}
+
+.nav-toggle-label {
+    font-size: 2rem; 
+}
 main {
     background-color: lightblue;
     
@@ -72,4 +76,17 @@ main {
 
 footer {
      background-color: orange
+}
+@media screen and (min-width: 768px) {
+    nav { display:block;
+    position: relative;
+box-shadow: none;
+width: fit-content;
+padding-right: 1rem;
+}
+}
+#menu {display: flex;}
+#menu > li {padding-left: 1rem;}
+.nav-toggle-label {
+    display: none;
 }
